@@ -1,4 +1,4 @@
 image: java:8
 script:
   - echo hello world
-  - mvn package
+  - docker info
