@@ -10,6 +10,8 @@ public class Application extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(Application.class);
 		app.setShowBanner(false);
+		app.setAdditionalProfiles("common");
 		app.run(args);
 	}
+	
 }

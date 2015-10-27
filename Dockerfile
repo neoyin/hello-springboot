@@ -5,7 +5,7 @@ FROM java:8
 MAINTAINER venizeng@gmail.com
 
 #git clone hello-springboot from github
-COPY target/hello-springboot.0.1-SNAPSHOT.jar app.jar
+COPY target/hello-springboot-0.0.1-SNAPSHOT.jar app.jar
 
 #
 RUN bash -c 'touch /app.jar'
