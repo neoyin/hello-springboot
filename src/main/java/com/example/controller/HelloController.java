@@ -17,6 +17,6 @@ public class HelloController {
 	
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public String hello(){
-		return name + commonname;
+		return "Test Push to Github -> "+name + commonname;
 	}
 }
